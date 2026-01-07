@@ -16,8 +16,7 @@
 
 [<img src="https://img.shields.io/badge/Streamlit-App-ff4b4b?style=for-the-badge&logo=streamlit&logoColor=white" width="180"/>](https://6cf6e04fe421.ngrok-free.app/)
 
-![Demo Dashboard](https://drive.google.com/uc?export=view&id=1iilkc23mm6BO93FgZrH-nU56XROe8kam)
-
+![Demo Dashboard](images/dashboard.png)
 
 #### Metrics 설명
 - **Clean**  
@@ -30,7 +29,7 @@
 ## 🏗 Architecture
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=16mJTXCh2vt5rYAMOtCuAMMTdkvHeB0-1" width="600"/>
+  <img src="images/architecture.png" width="600"/>
 </p>
 
 
@@ -50,7 +49,7 @@
   - Conv2D → ReLU → MaxPooling → Flatten → Dense → Softmax 구조  
 
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1X9FHQbaS5kr2unxU0W7aMdy6DIZO7xza" width="500"/>
+  <img src="images/cnn_structure.png" width="500"/>
 </p>
 
 
@@ -111,8 +110,9 @@ TECH_SEMINAR_DM/
 - **history**: 학습 버전별 accuracy/loss 기록  
 - **uploads**: 사용자 입력 데이터 저장  
 - **data/backupdata**: 재학습 데이터와 백업 데이터 분리  
+
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1WTxfFUrlvILJ-XPApLdgAx31voSvanro" width="850" height="350"/>
+  <img src="images/logging.png" width="500"/>
 </p>
 
 ---
@@ -122,10 +122,8 @@ TECH_SEMINAR_DM/
 - 재학습 후 성능 기록 & 이전 모델과 비교 가능  
 - 버전: v1, v2, v3 … 추적 및 복원 가능
 <p align="center">
-  <img src="https://drive.google.com/uc?export=view&id=1xWaR9YoVLJA88Ec2b5n2rlsG4Hi_7KfL" width="656" height="567"/>
+  <img src="images/modeling_retraining_workflow.png" width="656" height="567"/>
 </p>
-
-
 
 ---
 
